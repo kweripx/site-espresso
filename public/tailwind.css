@@ -18,7 +18,7 @@
     font-weight: Regular;
 }
 * {
-    font-family: "Sofia Pro";
+    font-family: "Sofia Pro Regular";
 }
 body {
   
@@ -71,7 +71,7 @@ h2 {
    
 }
 
-.grid-cu {
+.grid-fix {
     width: fit-content;
 }
 
@@ -88,7 +88,3 @@ h2 {
     display: inline-block;
 }
 
-
-/* .arrow {
-    padding-top: 540px;
-} */

@@ -22012,7 +22012,7 @@ video {
 }
 
 * {
-  font-family: "Sofia Pro";
+  font-family: "Sofia Pro Regular";
 }
 
 body {
@@ -22062,7 +22062,7 @@ h2 {
   top: 40px;
 }
 
-.grid-cu {
+.grid-fix {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -22080,10 +22080,6 @@ h2 {
   margin: auto;
   display: inline-block;
 }
-
-/* .arrow {
-    padding-top: 540px;
-} */
 
 @media (min-width: 640px) {
   .sm\:container {
@@ -106656,3 +106652,4 @@ h2 {
             animation: bounce 1s infinite;
   }
 }
+
