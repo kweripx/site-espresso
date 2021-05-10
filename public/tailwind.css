@@ -1,0 +1,94 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@font-face {
+    font-family: "Sofia Pro Bold";
+    src: url("./fonts/Sofia/Pro/Bold/Az.otf") format("otf");
+    font-weight: bold;
+}
+
+@font-face { 
+    font-family: "Sofia Pro Black";
+    src: url("./fonts/Sofia/Pro/Black/Az.otf");
+}
+
+@font-face {
+    font-family: "Sofia Pro Regular";
+    src: url("./fonts/Sofia/Pro/Regular/Az.otf") format("otf");
+    font-weight: Regular;
+}
+* {
+    font-family: "Sofia Pro";
+}
+body {
+  
+    background-color: black;
+}
+
+h1 {
+   
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+h2 {
+  
+    font-weight: bold;
+}
+
+.info p {
+    font-size: 1.3em;
+    line-height: 27px;
+}
+
+.nav-bar-logo {
+    width: 180px;
+}
+
+.initial-content {
+    background-image: url('/img/media/home-back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.button-default {
+    padding: 14px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.services {
+    background-image: url('/img/media/home1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 600px;
+    position: inline-block;
+    top: 40px;
+   
+}
+
+.grid-cu {
+    width: fit-content;
+}
+
+.services-card h3 {
+    font-weight: bold;
+    color: rgba(208, 255, 0, 0.904)
+}
+
+.button-services {
+    padding: 14px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: auto;
+    display: inline-block;
+}
+
+
+/* .arrow {
+    padding-top: 540px;
+} */
